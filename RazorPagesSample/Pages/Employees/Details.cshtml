@@ -1,0 +1,41 @@
+﻿@page
+@model RazorPagesSample.Pages.Employees.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+    <a asp-page="/Employees/Index">Employees List</a> <h3>Employee Details</h3>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"><img class="img-thumbnail thumbnail-size img-thumbnail" src="~/images/@string.Concat(Model.employee.Gender.ToLower(),".jpg")" /></div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md-2 bg-info">Id</div>
+                <div class="col-md-10 bg-success">@Model.employee.Id</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 bg-success">Name</div>
+                <div class="col-md-10 bg-dark">@Model.employee.Name</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 bg-dark">Gender</div>
+                <div class="col-md-10 bg-primary">@Model.employee.Gender</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 bg-primary">Department</div>
+                <div class="col-md-10 bg-secondary">@Model.employee.Department</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 bg-secondary">Email</div>
+                <div class="col-md-10 bg-warning">@Model.employee.Email</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 bg-warning">Salary</div>
+                <div class="col-md-10 bg-info">$@Model.employee.Salary</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

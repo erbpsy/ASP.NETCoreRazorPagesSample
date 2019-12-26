@@ -1,0 +1,11 @@
+D:\ASP.NET Core\DataManagement.Services\bin\Debug\netstandard2.0\DataManagement.Services.deps.json
+D:\ASP.NET Core\DataManagement.Services\bin\Debug\netstandard2.0\DataManagement.Services.dll
+D:\ASP.NET Core\DataManagement.Services\bin\Debug\netstandard2.0\DataManagement.Services.pdb
+D:\ASP.NET Core\DataManagement.Services\bin\Debug\netstandard2.0\Management.Model.dll
+D:\ASP.NET Core\DataManagement.Services\bin\Debug\netstandard2.0\Management.Model.pdb
+D:\ASP.NET Core\DataManagement.Services\obj\Debug\netstandard2.0\DataManagement.Services.csprojAssemblyReference.cache
+D:\ASP.NET Core\DataManagement.Services\obj\Debug\netstandard2.0\DataManagement.Services.AssemblyInfoInputs.cache
+D:\ASP.NET Core\DataManagement.Services\obj\Debug\netstandard2.0\DataManagement.Services.AssemblyInfo.cs
+D:\ASP.NET Core\DataManagement.Services\obj\Debug\netstandard2.0\DataManagement.Services.csproj.CopyComplete
+D:\ASP.NET Core\DataManagement.Services\obj\Debug\netstandard2.0\DataManagement.Services.dll
+D:\ASP.NET Core\DataManagement.Services\obj\Debug\netstandard2.0\DataManagement.Services.pdb

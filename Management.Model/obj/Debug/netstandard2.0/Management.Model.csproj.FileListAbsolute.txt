@@ -1,0 +1,8 @@
+D:\ASP.NET Core\Management.Model\bin\Debug\netstandard2.0\Management.Model.deps.json
+D:\ASP.NET Core\Management.Model\bin\Debug\netstandard2.0\Management.Model.dll
+D:\ASP.NET Core\Management.Model\bin\Debug\netstandard2.0\Management.Model.pdb
+D:\ASP.NET Core\Management.Model\obj\Debug\netstandard2.0\Management.Model.csprojAssemblyReference.cache
+D:\ASP.NET Core\Management.Model\obj\Debug\netstandard2.0\Management.Model.AssemblyInfoInputs.cache
+D:\ASP.NET Core\Management.Model\obj\Debug\netstandard2.0\Management.Model.AssemblyInfo.cs
+D:\ASP.NET Core\Management.Model\obj\Debug\netstandard2.0\Management.Model.dll
+D:\ASP.NET Core\Management.Model\obj\Debug\netstandard2.0\Management.Model.pdb
