@@ -1,11 +1,35 @@
-﻿@page
+﻿@page "/employees/view/{id:int}"
 @model RazorPagesSample.Pages.Employees.DetailsModel
 @{
     ViewData["Title"] = "Details";
 }
 
-    <a asp-page="/Employees/Index">Employees List</a> <h3>Employee Details</h3>
+<a asp-page="/Employees/Index">Employees List</a>
+<h3>Employee Details</h3>
 <hr />
+
+
+<div class="card">
+    <div class="card-header">@Model.employee.Name</div>
+    <div class="card-body" style="text-align:center;">
+        <img class="img-thumbnail" src="~/images/@string.Concat(Model.employee.Gender.ToLower(),".jpg")" />
+        <h5>Employee ID : @Model.employee.Id</h5>
+        <h5>Gender : @Model.employee.Gender</h5>
+        <h5>Email : @Model.employee.Email</h5>
+        <h5>Department : @Model.employee.Department</h5>
+        <h5>Salary : $@Model.employee.Salary</h5>
+    </div>
+    <div class="card-footer">
+        <a asp-page="index" class="btn btn-primary">Back To List</a>
+        <a href="#" class="btn btn-primary">Edit</a>
+        <a href="#" class="btn btn-danger">Delete</a>
+    </div>
+</div>
+
+<br />
+<br />
+
+
 <div class="container">
     <div class="row">
         <div class="col-md-2"><img class="img-thumbnail thumbnail-size img-thumbnail" src="~/images/@string.Concat(Model.employee.Gender.ToLower(),".jpg")" /></div>
